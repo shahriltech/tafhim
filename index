@@ -1,0 +1,92 @@
+<!-- BEGIN CONTENT -->
+<div class="page-content-wrapper">
+    <!-- BEGIN CONTENT BODY -->
+    <div class="page-content">
+        <!-- BEGIN PAGE HEADER-->
+
+        <h1 class="page-title"> <?= Html::encode($this->title) ?>
+        
+        </h1>
+        <div class="page-bar">
+            <ul class="page-breadcrumb">
+                <li>
+                    <i class="icon-home"></i>
+                    <a href="<?php echo Yii::$app->request->baseUrl; ?>">Dashboard</a>
+                    <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                    <span><?= Html::encode($this->title) ?></span>
+                </li>
+            </ul>
+
+        </div>
+        <!-- END PAGE HEADER-->
+    <p>
+        <?= Html::a('Tambah KSWP 11%', ['create'], ['class' => 'btn btn-primary']) ?>
+    </p>
+
+
+    <div class="portlet light ">
+        <div class="portlet-title">
+            <div class="caption">
+                <i class="icon-equalizer font-dark hide"></i>
+                <span class="caption-subject font-dark bold uppercase">Carian</span>
+        
+            </div>
+            <div class="tools">
+                <a href="" class="expand" data-original-title="" title=""> </a>
+            </div>
+        </div>
+        <div class="portlet-body" style="display: none;">
+            <div class="row">
+                <div class="col-md-12 col-sm-6">
+                    <?php  echo $this->render('_search', ['model' => $searchModel]); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="row">
+
+            <div class="col-md-12 col-sm-6">
+                <div class="portlet light">
+
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <span class="caption-subject bold uppercase font-dark"><?= Html::encode($this->title) ?></span>
+                            <span class="caption-helper">Senarai...</span>
+                        </div>
+                        <div class="actions">
+                            <a class="btn btn-circle btn-icon-only btn-default fullscreen" href="#"> </a>
+                        </div>
+                    </div>
+
+                        <?php if(Yii::$app->session->hasFlash('create')) { ?>
+                        <div class="alert alert-success">
+                            <button type="button" class="close" data-dismiss="alert"></button>
+                             <?php echo  Yii::$app->session->getFlash('create'); ?>
+                        </div>
+                        <?php } elseif(Yii::$app->session->hasFlash('update')) { ?>
+                        <div class="alert alert-info">
+                            <button type="button" class="close" data-dismiss="alert"></button>
+                             <?php echo  Yii::$app->session->getFlash('update'); ?>
+                        </div>
+                        <?php } ?>
+
+
+                    <div class="portlet-body">
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <!-- END CONTENT BODY -->
+</div>
+<!-- END CONTENT -->
