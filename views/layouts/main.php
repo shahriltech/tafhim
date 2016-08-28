@@ -254,7 +254,7 @@ AppAsset::register($this);
                                     'options'=>['class'=>'nav-item'],
                                     'template' => '<a href="javascript:;" class="nav-link nav-toggle"><i class="icon-wallet"></i><span class="title">Pengurusan Gaji</span><span class="arrow"></span></a>',
                                     'items' => [
-                                                ['label' => 'Maklumat Kakitangan', 'url' => ['#']],
+                                                ['label' => 'Maklumat Kakitangan', 'url' => ['maklumat-kakitangan/pengurusan_gaji']],
                                                 ['label' => 'Proses Gaji', 'url' => ['#']],
                                     ]
                                 ],
@@ -262,7 +262,7 @@ AppAsset::register($this);
                                     'options'=>['class'=>'nav-item'],
                                     'template' => '<a href="javascript:;" class="nav-link nav-toggle"><i class="icon-briefcase"></i><span class="title">Laporan Kewangan</span><span class="arrow"></span></a>',
                                     'items' => [
-                                                ['label' => 'Laporan Gaji Bersih', 'url' => ['#']],
+                                                ['label' => 'Laporan Gaji Bersih', 'url' => ['pay-slip/laporan_gaji']],
                                                 ['label' => 'Laporan EPF', 'url' => ['#']],
                                                 ['label' => 'Laporan SOCSO', 'url' => ['#']],
                                                 ['label' => 'Laporan Tabung Kebajikan', 'url' => ['#']],

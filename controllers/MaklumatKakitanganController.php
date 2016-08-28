@@ -5,6 +5,7 @@ namespace app\controllers;
 use Yii;
 use app\models\MaklumatKakitangan;
 use app\models\MaklumatKakitanganSearch;
+use app\models\PengurusanGajiSearch;
 use app\models\MaklumatKakitanganResign;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -182,4 +183,17 @@ class MaklumatKakitanganController extends Controller
             'model' => $this->findModel($id),
         ]);
     }
+
+    //Payroll Modul - Pengurusan Gaji
+    public function actionPengurusan_gaji()
+    {
+        $searchModel = new PengurusanGajiSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+        return $this->render('pengurusan_gaji', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
+    }
+
 }
