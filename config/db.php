@@ -12,6 +12,6 @@ return [
     'class' => 'yii\db\Connection',
     'dsn' => 'mysql:host=localhost;dbname=tafhim',
     'username' => 'root',
-    'password' => 'arel2004',
+    'password' => 'madlabs123',
     'charset' => 'utf8',
 ];

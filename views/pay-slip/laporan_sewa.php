@@ -18,12 +18,12 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="portlet light bordered ">
             <div class="portlet-title">
                 <div class="caption font-green-haze">
-                    <i class="icon-calendar"></i>Laporan Gaji Bersih
+                    <i class="icon-calendar"></i>Laporan Sewa Rumah
                 </div>
             </div>
             <center>
             <?php $form = ActiveForm::begin([
-            	'action' => ['gaji_bersih'],
+            	'action' => ['lihat_laporan_sewa'],
             	'method' => 'GET',
             	'options' => [
                 'class' => 'form-horizontal'

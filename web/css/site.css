@@ -89,3 +89,26 @@ a.desc:after {
     padding: 10px 20px;
     margin: 0 0 15px 0;
 }
+/*.table .table-scroll {
+  height:150px;
+  overflow:auto;  
+  margin-top:20px;
+}
+
+table .scroll{
+    overflow: scroll;
+    height: 150px;
+}*/
+
+/*.table tr .head-fixed {
+    position:absolute;
+    width: 100%;
+}*/
+/*.table-scroll table tr th .head {
+  position:absolute;   
+  top:-20px;
+  z-index:2;
+  height:20px;
+  width:35%;
+  border:1px solid red;
+}*/

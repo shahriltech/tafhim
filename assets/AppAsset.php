@@ -28,6 +28,11 @@ class AppAsset extends AssetBundle
             'theme/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css',
             'theme/assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css',
             'theme/assets/global/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css',
+            'theme/assets/global/plugins/datatables/datatables.min.css',
+            'theme/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css',
+
+            'theme/assets/global/plugins/bootstrap-table/bootstrap-table.min.css',
+
             'theme/assets/global/plugins/morris/morris.css',
             'theme/assets/global/plugins/fullcalendar/fullcalendar.min.css',
             'theme/assets/global/plugins/jqvmap/jqvmap/jqvmap.css',
@@ -37,6 +42,7 @@ class AppAsset extends AssetBundle
             'theme/assets/layouts/layout/css/layout.min.css',
             'theme/assets/layouts/layout/css/themes/darkblue.min.css',
             'theme/assets/layouts/layout/css/custom.min.css',
+            'css/site.css',
 
 
             //'theme/assets/layouts/layout2/css/layout.min.css',
@@ -57,6 +63,15 @@ class AppAsset extends AssetBundle
             'theme/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js',
             'theme/assets/global/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js',
             'theme/assets/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js',
+            'theme/assets/global/plugins/bootstrap-table/bootstrap-table.min.js',
+
+            'theme/assets/global/scripts/datatable.js',
+            'theme/assets/global/plugins/datatables/datatables.min.js',
+            'theme/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js',
+            'theme/assets/pages/scripts/table-datatables-scroller.min.js',
+
+            'theme/assets/pages/scripts/table-bootstrap.min.js',
+
             'theme/assets/global/plugins/morris/morris.min.js',
             'theme/assets/global/plugins/morris/raphael-min.js',
             'theme/assets/global/plugins/counterup/jquery.waypoints.min.js',
@@ -67,6 +82,7 @@ class AppAsset extends AssetBundle
             'theme/assets/layouts/layout/scripts/demo.min.js',
             'theme/assets/layouts/global/scripts/quick-sidebar.min.js',
             'theme/assets/pages/scripts/components-date-time-pickers.min.js',
+            
             //'theme/assets/global/plugins/select2/js/select2.full.min.js',
             'js/extra.js',
 

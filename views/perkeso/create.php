@@ -4,13 +4,13 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model app\models\PaySlip */
+/* @var $model app\models\Perkeso */
 
-$this->title = 'Create Pay Slip';
-$this->params['breadcrumbs'][] = ['label' => 'Pay Slips', 'url' => ['index']];
+$this->title = 'Create Perkeso';
+$this->params['breadcrumbs'][] = ['label' => 'Perkesos', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="pay-slip-create">
+<div class="perkeso-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
